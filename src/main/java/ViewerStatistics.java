@@ -6,6 +6,6 @@ public class ViewerStatistics {
         for(int i = 0; i < list.size(); i++){
             sum += list.get(i).getAge();
         }
-        return (int)sum/list.size();
+        return sum/list.size();
     }
 }
